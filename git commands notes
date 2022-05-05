@@ -1,0 +1,119 @@
+1. Open the github account.
+
+Create a new repo.
+
+2. Open the git bash on local
+              
+         git clone url
+         git clone https://github.com/sarutig/demo6.git
+
+3. create a new test and save it to the git repo.
+
+
+         git add .
+         git commit -m "done"
+
+4. Modify the existing file >>>>>then   add and commit again
+
+         git status
+         git add .
+         git commit -m "done2"
+
+and check status with the diagram given in the chat window
+
+5. perform push opertion
+    git push origin main
+  and then reload the github.
+git config --global user.name ""
+git config --global user.email ""
+============================================================
+
+Q. ON THE GITHUB, CREATE A NEW FILE AND THEN USE PULL OPERATION
+
+
+ git pull origin main
+
+
+and finally check the files on to the local folder
+
+Q. Creating branches (i)local
+                    (ii)Remote 
+
+======================================================
+Q. Publishing branches from local to remote
+                  
+Q. Fetching branches from remote to local
+=====================================================
+
+Creating branches ON REMOTE [GITHUB]
+
+b1 from main
+
+create a file in b1 
+
+now check the no.of files in b1 and main
+
+
+==============================================================
+
+Creating branches (i)local
+
+git branch b11            [new branch create]
+
+git branch                [to check the no. of branches]
+
+git checkout b11           [ to switch over that branch]
+
+
+Q. SWITCH OVER THE BRANCHES
+
+Q. USE ls to check the no.of files
+
+
+Q.  now, on b11 create a text file(testb) >>>add, commit
+
+Q.  now, check the contents of branch b11 and main using ls         command
+
+Q.  Now, create a new local branch b22 from b11
+
+
+Q. on b22 create a text file(testb2) >>>add, commit
+
+
+Q.  now, check the contents of branch b22, b11 and main using ls         command
+
+       b22  =
+       b11  =
+       main =
+
+
+Q. PUBLISH THIS BRANCH (B11)
+
+     LOCAL BRANCH CAN BE REFLECTED ON THE REMOTE BY USING 
+      PUSH OPERATION
+
+
+       git checkout b11
+       git push origin b11
+
+and then reload, the github , then check b11 would be there    
+
+
+Q. NOW, CHECK ON GITHUB for [b11] THE PULL REQUEST PROCESS.............
+    COMPARE, MERGE, CLOSE THE PULL REQUEST
+
+
+AND FINALLLLLLLLYYYYY
+
+git pull origin main     to sync..
+git pull origin b11 
+[[[[[[ms visio ]]]]]]
+
+
+
+
+
+
+
+
+
